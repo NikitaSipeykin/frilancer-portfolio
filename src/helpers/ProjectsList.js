@@ -51,4 +51,7 @@ const projects = [
     imgBig: project05big,
     gitHubLink: 'https://github.com/NikitaSipeykin/react-crypto-initial',
   }
-]
+];
+
+export {projects};
+
