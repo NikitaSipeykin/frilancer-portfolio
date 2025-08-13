@@ -17,7 +17,7 @@ import project05big from "./../img/projects/05-big.png";
 
 const projects = [
   {
-    title: "Java 2D Advature Game",
+    title: "Java 2D Adventure Game",
     skills: "Java, Swing, Java 2D",
     img: project01,
     imgBig: project01big,
@@ -31,7 +31,7 @@ const projects = [
     gitHubLink: 'https://github.com/NikitaSipeykin/BlackJackJava',
   },
   {
-    title: "Java Spring boot web site",
+    title: "Java Spring boot website",
     skills: "Java, Sping boot, Spring security, Thymeleaf, Hybernate, PostgreSQL, Angular",
     img: project03,
     imgBig: project03big,
