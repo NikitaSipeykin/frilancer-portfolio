@@ -47,7 +47,7 @@ const projects = [
   {
     title: "React cripto currency tracker",
     skills: "JavaScript, HTML, CSS, React, Vite",
-    img: project05big,
+    img: project05,
     imgBig: project05big,
     gitHubLink: 'https://github.com/NikitaSipeykin/react-crypto-initial',
   }
