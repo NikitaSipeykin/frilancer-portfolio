@@ -13,7 +13,20 @@ import project04big from "./../img/projects/04-big.png";
 import project05 from "./../img/projects/05.png";
 import project05big from "./../img/projects/05-big.png";
 
+import project06 from "./../img/projects/06.png";
+import project06big from "./../img/projects/06-big.png";
 
+import project07 from "./../img/projects/07.png";
+import project07big from "./../img/projects/07-big.png";
+
+import project08 from "./../img/projects/08.png";
+import project08big from "./../img/projects/08-big.png";
+
+import project09 from "./../img/projects/09.png";
+import project09big from "./../img/projects/09-big.png";
+
+import project10 from "./../img/projects/10.png";
+import project10big from "./../img/projects/10-big.png";
 
 const projects = [
   {
@@ -78,6 +91,13 @@ const projects = [
     img: project09,
     imgBig: project09big,
     gitHubLink: 'https://github.com/NikitaSipeykin/chess-game',
+  },
+  {
+    title: "Telegram bot",
+    skills: "Java, Sping boot, Telegram Bot API",
+    img: project10,
+    imgBig: project10big,
+    gitHubLink: 'https://github.com/NikitaSipeykin/T_Bot_Hallie',
   }
 ];
 
