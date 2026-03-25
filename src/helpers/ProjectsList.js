@@ -50,6 +50,34 @@ const projects = [
     img: project05,
     imgBig: project05big,
     gitHubLink: 'https://github.com/NikitaSipeykin/react-crypto-initial',
+  },
+  {
+    title: "Packman game",
+    skills: "Java, Swing, Java 2D",
+    img: project06,
+    imgBig: project06big,
+    gitHubLink: 'https://github.com/NikitaSipeykin/PackManJava',
+  },
+  {
+    title: "RUNNER game (Playable in browser)",
+    skills: "TypeScript, PixiJS",
+    img: project07,
+    imgBig: project07big,
+    gitHubLink: 'https://runner-flax.vercel.app/',
+  },
+  {
+    title: "Job assistant",
+    skills: "Java, Sping boot, JavaScript, HTML, CSS",
+    img: project08,
+    imgBig: project08big,
+    gitHubLink: 'https://github.com/NikitaSipeykin/job-assistant',
+  },
+  {
+    title: "Chess game",
+    skills: "Java, Swing, Java 2D",
+    img: project09,
+    imgBig: project09big,
+    gitHubLink: 'https://github.com/NikitaSipeykin/chess-game',
   }
 ];
 
