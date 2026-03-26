@@ -14,7 +14,7 @@ function Header() {
           <p>with passion for learning and creating.</p>
         </div>
         <a
-          href="/Java Developer - Nikita Sipeikin.pdf"
+          href="/Nikita Sipeikin - Java dev.pdf"
           download="Nikita_Sipeikin_CV.pdf"
           className="btn"
         >
