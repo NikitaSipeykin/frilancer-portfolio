@@ -26,23 +26,22 @@
 	margin-right: auto;
 	display: inline-flex;
 	align-items: center;
-	gap: 10px;
+	gap: 12px;
 	color: var(--nav-text);
-	font-size: 22px;
-	font-family: 'Space Grotesk', sans-serif;
-	font-weight: 500;
+	font-family: 'Unbounded', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
 	letter-spacing: -0.01em;
+	text-transform: uppercase;
 	transition: opacity 0.2s ease;
 }
 
 .logo::before {
 	content: '';
 	display: block;
-	width: 12px;
-	height: 12px;
-	border-radius: 4px;
-	background: var(--gradient-accent);
-	box-shadow: 0 0 16px var(--accent-glow);
+	width: 10px;
+	height: 10px;
+	background: var(--orange);
 }
 
 .logo:hover {
@@ -51,10 +50,7 @@
 
 .logo strong {
 	font-weight: 700;
-	background: var(--gradient-accent);
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
+	color: var(--orange);
 }
 
 .nav-list {
@@ -62,51 +58,45 @@
 	flex-wrap: wrap;
 	row-gap: 10px;
 	align-items: center;
-	column-gap: 8px;
-	font-size: 15px;
-	font-weight: 500;
-	font-family: 'Inter', sans-serif;
-	padding: 6px;
-	background: rgba(255, 255, 255, 0.04);
-	border: 1px solid rgba(255, 255, 255, 0.06);
-	border-radius: 999px;
+	column-gap: 4px;
+	font-family: 'Inter Tight', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
 }
 
 .nav-list__link {
 	display: inline-block;
-	padding: 8px 18px;
-	color: rgba(255, 255, 255, 0.75);
-	border-radius: 999px;
-	transition: color 0.2s ease, background-color 0.2s ease;
+	padding: 8px 16px;
+	color: rgba(232, 216, 201, 0.7);
+	border: 1px solid transparent;
+	transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .nav-list__link:hover {
-	color: var(--white);
-	background-color: rgba(255, 255, 255, 0.06);
+	color: var(--cream);
 }
 
 .nav-list__link--active {
-	color: var(--white);
-	background: var(--gradient-accent);
-	box-shadow: 0 8px 22px -10px var(--accent-glow);
+	color: var(--orange);
+	border-color: var(--orange);
 }
 
 .nav-list__link--active:hover {
-	background: var(--gradient-accent);
+	color: var(--orange);
 }
 
 @media (max-width: 620px) {
 	.nav-list {
-		column-gap: 4px;
-		padding: 4px;
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	.nav-list__link {
-		padding: 6px 14px;
+		padding: 6px 12px;
 	}
 
 	.logo {
-		font-size: 18px;
+		font-size: 14px;
 	}
 }
