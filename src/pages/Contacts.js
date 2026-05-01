@@ -1,6 +1,6 @@
 import linkedIn from "../img/icons/linkedIn.svg";
 import gitHub from "../img/icons/gitHub.svg";
-import telegram from "../img/icons/twitter.svg";
+import telegram from "../img/icons/telegram.svg";
 import instagram from "../img/icons/instagram.svg";
 import discord from "../img/icons/discord.svg";
 import "../styles/contacts.css";
@@ -47,7 +47,7 @@ const Contacts = () => {
         <ul className="content-list">
           <li className="content-list__item">
             <h2 className="title-2">Location</h2>
-            <p>Bali, Indonesia</p>
+            <p>Worldwide</p>
           </li>
           <li className="content-list__item">
             <h2 className="title-2">Phone</h2>

@@ -14,6 +14,13 @@ const skills = [
       "PostgreSQL",
       "MySQL",
       "MongoDB",
+      "Redis",
+      "REST",
+      "Spring Security",
+      "WebSockets",
+      "Hibernate (JPA)",
+      "Microservices",
+      
     ],
   },
   {
@@ -29,19 +36,27 @@ const skills = [
       "CSS",
       "Bootstrap",
       "Styled Components",
+        "Thymeleaf",
+
     ],
   },
   {
     num: "03",
     title: "Tooling",
     desc: "Shipping with confidence and good ergonomics.",
-    items: ["Git", "Docker", "Maven", "Gradle", "REST", "GraphQL", "CI/CD", "Linux"],
+    items: ["Git", "Docker", "Maven", "Gradle", "REST", "GraphQL", "CI/CD", "Linux", "k8s", "AWS", "Vercel" ,"Apache Kafka"],
   },
   {
     num: "04",
     title: "Game Dev",
     desc: "Side projects exploring 2D engines and graphics.",
-    items: ["Java 2D", "Swing", "PixiJS", "TypeScript", "Game loops", "Sprites"],
+    items: ["Java 2D", "Swing", "PixiJS", "TypeScript", "Game loops", "Sprites", "Tile maps", "Collision detection", "Basic AI"],
+  },
+    {
+    num: "05",
+    title: "Ai Tools",
+    desc: "Experimenting with the latest in AI for fun and profit.",
+    items: ["LLM API integration (OpenAI, Anthropic)", "Prompt engineering", "Fine-tuning", "AI-assisted coding", "AI content generation", "AI chatbots"],
   },
 ];
 

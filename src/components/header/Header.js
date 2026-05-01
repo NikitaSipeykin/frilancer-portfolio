@@ -26,14 +26,14 @@ function Header() {
           <strong>
             Hi, I'm <em>Nick</em>
           </strong>
-          a Java developer
+          a Software developer
         </h1>
         <div className="header__text">
           <p>Crafting reliable backends and clean interfaces — with a passion for learning and creating.</p>
         </div>
         <div className="header__actions">
           <a
-            href="/Nikita Sipeikin - Java dev.pdf"
+            href="/Nikita Sipeikin - Java developer.pdf"
             download="Nikita_Sipeikin_CV.pdf"
             className="btn"
           >

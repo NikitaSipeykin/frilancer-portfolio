@@ -32,7 +32,7 @@
 }
 
 .social__item:hover {
-	border-color: var(--cream);
+	border-color: var(--orange-soft);
 	background-color: rgba(232, 216, 201, 0.08);
 	transform: translateY(-3px);
 }
@@ -47,4 +47,5 @@
 
 .social__item:hover img {
 	opacity: 1;
+	fill: var(--orange-soft);
 }

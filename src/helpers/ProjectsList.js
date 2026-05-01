@@ -1,5 +1,11 @@
 import project01 from "./../img/projects/01.png";
 import project01big from "./../img/projects/01-big.png";
+import project01big2 from "./../img/projects/01-big-2.png";
+import project01big3 from "./../img/projects/01-big-3.png";
+import project01big4 from "./../img/projects/01-big-4.png";
+import project01big5 from "./../img/projects/01-big-5.png";
+import project01big6 from "./../img/projects/01-big-6.png";
+import project01big7 from "./../img/projects/01-big-7.png";
 
 import project02 from "./../img/projects/02.png";
 import project02big from "./../img/projects/02-big.png";
@@ -21,16 +27,35 @@ import project07big from "./../img/projects/07-big.png";
 
 import project08 from "./../img/projects/08.png";
 import project08big from "./../img/projects/08-big.png";
+import project08big2 from "./../img/projects/08-big-2.png";
+import project08big3 from "./../img/projects/08-big-3.png";
+import project08big4 from "./../img/projects/08-big-4.png";
+import project08big5 from "./../img/projects/08-big-5.png";
+import project08big6 from "./../img/projects/08-big-6.png";
 
 import project09 from "./../img/projects/09.png";
 import project09big from "./../img/projects/09-big.png";
 
 import project10 from "./../img/projects/10.png";
 import project10big from "./../img/projects/10-big.png";
+import project10big2 from "./../img/projects/10-big-2.png";
 
 const projects = [
-  {
-    title: "Java 2D Adventure Game",
+  {title: "Telegram Bot",
+    description:
+      "Spring Boot Telegram bot with rich commands, persistent storage and a clean architecture.",
+    longDescription:
+      "A Telegram bot built with Spring Boot and the official Telegram Bot API. Features command handling, persistent state, scheduled tasks and a modular handler architecture that's easy to extend.",
+    skills: "Java, Spring Boot, Telegram Bot API",
+    img: project10,
+    imgBig: project10big,
+    images: [project10, project10big, project10big2],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/T_Bot_Hallie", type: "github" },
+      { label: "Live demo", url: "https://t.me/HallieTheBot", type: "demo" },
+    ],
+  },
+  {title: "Java 2D Adventure Game",
     description:
       "Top-down 2D adventure built from scratch in pure Java with custom rendering, tile maps and combat.",
     longDescription:
@@ -38,9 +63,23 @@ const projects = [
     skills: "Java, Swing, Java 2D",
     img: project01,
     imgBig: project01big,
-    images: [project01big],
+    images: [project01big2, project01big3, project01big4, project01big5, project01big6, project01big7, project01big],
     links: [
       { label: "GitHub", url: "https://github.com/NikitaSipeykin/First2DGame", type: "github" },
+    ],
+  },
+    {
+    title: "Job Assistant",
+    description:
+      "Spring Boot service that helps track applications, deadlines and recruiter conversations.",
+    longDescription:
+      "A productivity tool for job seekers. Stores applications, statuses and timelines, exposes a Spring Boot REST API and a lightweight web UI for everyday tracking.",
+    skills: "Java, Spring Boot, JavaScript, HTML, CSS",
+    img: project08big4,
+    imgBig: project08big4,
+    images: [project08big4, project08big5, project08big6, project08big2, project08big3],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/job-assistant", type: "github" },
     ],
   },
   {
@@ -125,20 +164,7 @@ const projects = [
     images: [project07big],
     links: [
       { label: "Live demo", url: "https://runner-flax.vercel.app/", type: "demo" },
-    ],
-  },
-  {
-    title: "Job Assistant",
-    description:
-      "Spring Boot service that helps track applications, deadlines and recruiter conversations.",
-    longDescription:
-      "A productivity tool for job seekers. Stores applications, statuses and timelines, exposes a Spring Boot REST API and a lightweight web UI for everyday tracking.",
-    skills: "Java, Spring Boot, JavaScript, HTML, CSS",
-    img: project08,
-    imgBig: project08big,
-    images: [project08big],
-    links: [
-      { label: "GitHub", url: "https://github.com/NikitaSipeykin/job-assistant", type: "github" },
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/runner", type: "github" },
     ],
   },
   {
@@ -155,20 +181,7 @@ const projects = [
       { label: "GitHub", url: "https://github.com/NikitaSipeykin/chess-game", type: "github" },
     ],
   },
-  {
-    title: "Telegram Bot",
-    description:
-      "Spring Boot Telegram bot with rich commands, persistent storage and a clean architecture.",
-    longDescription:
-      "A Telegram bot built with Spring Boot and the official Telegram Bot API. Features command handling, persistent state, scheduled tasks and a modular handler architecture that's easy to extend.",
-    skills: "Java, Spring Boot, Telegram Bot API",
-    img: project10,
-    imgBig: project10big,
-    images: [project10big],
-    links: [
-      { label: "GitHub", url: "https://github.com/NikitaSipeykin/T_Bot_Hallie", type: "github" },
-    ],
-  },
+
 ];
 
 export { projects };
