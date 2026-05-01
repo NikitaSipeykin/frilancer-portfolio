@@ -25,8 +25,6 @@ import project06big from "./../img/projects/06-big.png";
 import project07 from "./../img/projects/07.png";
 import project07big from "./../img/projects/07-big.png";
 
-import project08 from "./../img/projects/08.png";
-import project08big from "./../img/projects/08-big.png";
 import project08big2 from "./../img/projects/08-big-2.png";
 import project08big3 from "./../img/projects/08-big-3.png";
 import project08big4 from "./../img/projects/08-big-4.png";
