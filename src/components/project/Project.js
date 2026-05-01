@@ -5,7 +5,9 @@ const Project = ({ title, img, index }) => {
   return (
     <NavLink to={`/project/${index}`} className="project-link">
       <li className="project">
-        <img src={img} alt={title} className="project__img" />
+        <div className="project__img-wrap">
+          <img src={img} alt={title} className="project__img" />
+        </div>
         <h3 className="project__title">{title}</h3>
       </li>
     </NavLink>
