@@ -1,5 +1,11 @@
 import project01 from "./../img/projects/01.png";
 import project01big from "./../img/projects/01-big.png";
+import project01big2 from "./../img/projects/01-big-2.png";
+import project01big3 from "./../img/projects/01-big-3.png";
+import project01big4 from "./../img/projects/01-big-4.png";
+import project01big5 from "./../img/projects/01-big-5.png";
+import project01big6 from "./../img/projects/01-big-6.png";
+import project01big7 from "./../img/projects/01-big-7.png";
 
 import project02 from "./../img/projects/02.png";
 import project02big from "./../img/projects/02-big.png";
@@ -19,87 +25,161 @@ import project06big from "./../img/projects/06-big.png";
 import project07 from "./../img/projects/07.png";
 import project07big from "./../img/projects/07-big.png";
 
-import project08 from "./../img/projects/08.png";
-import project08big from "./../img/projects/08-big.png";
+import project08big2 from "./../img/projects/08-big-2.png";
+import project08big3 from "./../img/projects/08-big-3.png";
+import project08big4 from "./../img/projects/08-big-4.png";
+import project08big5 from "./../img/projects/08-big-5.png";
+import project08big6 from "./../img/projects/08-big-6.png";
 
 import project09 from "./../img/projects/09.png";
 import project09big from "./../img/projects/09-big.png";
 
 import project10 from "./../img/projects/10.png";
 import project10big from "./../img/projects/10-big.png";
+import project10big2 from "./../img/projects/10-big-2.png";
 
 const projects = [
-  {
-    title: "Java 2D Adventure Game",
+  {title: "Telegram Bot",
+    description:
+      "Spring Boot Telegram bot with rich commands, persistent storage and a clean architecture.",
+    longDescription:
+      "A Telegram bot built with Spring Boot and the official Telegram Bot API. Features command handling, persistent state, scheduled tasks and a modular handler architecture that's easy to extend.",
+    skills: "Java, Spring Boot, Telegram Bot API",
+    img: project10,
+    imgBig: project10big,
+    images: [project10, project10big, project10big2],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/T_Bot_Hallie", type: "github" },
+      { label: "Live demo", url: "https://t.me/HallieTheBot", type: "demo" },
+    ],
+  },
+  {title: "Java 2D Adventure Game",
+    description:
+      "Top-down 2D adventure built from scratch in pure Java with custom rendering, tile maps and combat.",
+    longDescription:
+      "A classic top-down 2D adventure game built entirely with Java Swing and Java 2D. Features a hand-rolled rendering pipeline, tile-based maps, an entity system, basic AI, combat, inventory and save/load — all without external engines.",
     skills: "Java, Swing, Java 2D",
     img: project01,
     imgBig: project01big,
-    gitHubLink: 'https://github.com/NikitaSipeykin/First2DGame',
+    images: [project01big2, project01big3, project01big4, project01big5, project01big6, project01big7, project01big],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/First2DGame", type: "github" },
+    ],
+  },
+    {
+    title: "Job Assistant",
+    description:
+      "Spring Boot service that helps track applications, deadlines and recruiter conversations.",
+    longDescription:
+      "A productivity tool for job seekers. Stores applications, statuses and timelines, exposes a Spring Boot REST API and a lightweight web UI for everyday tracking.",
+    skills: "Java, Spring Boot, JavaScript, HTML, CSS",
+    img: project08big4,
+    imgBig: project08big4,
+    images: [project08big4, project08big5, project08big6, project08big2, project08big3],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/job-assistant", type: "github" },
+    ],
   },
   {
     title: "Java 2D Card Game",
+    description:
+      "BlackJack implemented with a clean game loop, animated dealing and a polished Swing UI.",
+    longDescription:
+      "Desktop BlackJack written in Java. Includes proper card mechanics, dealer logic, betting, hand evaluation and an animated UI rendered with Java 2D.",
     skills: "Java, Swing, Java 2D",
     img: project02,
     imgBig: project02big,
-    gitHubLink: 'https://github.com/NikitaSipeykin/BlackJackJava',
+    images: [project02big],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/BlackJackJava", type: "github" },
+    ],
   },
   {
-    title: "Java Spring boot website",
-    skills: "Java, Sping boot, Spring security, Thymeleaf, Hybernate, PostgreSQL, Angular",
+    title: "Java Spring Boot Website",
+    description:
+      "Full-stack web app with Spring Boot, Spring Security, Hibernate and an Angular frontend.",
+    longDescription:
+      "An end-to-end web application demonstrating layered architecture: Spring Boot REST backend with Spring Security and Hibernate over PostgreSQL, Thymeleaf server pages and an Angular SPA layer for interactive views.",
+    skills: "Java, Spring Boot, Spring Security, Thymeleaf, Hibernate, PostgreSQL, Angular",
     img: project03,
     imgBig: project03big,
-    gitHubLink: 'https://github.com/NikitaSipeykin/GB_SpringBoot_Market',
+    images: [project03big],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/GB_SpringBoot_Market", type: "github" },
+    ],
   },
   {
-    title: "Java Spring boot marketplace",
-    skills: "Java, Sping boot, Spring security, Hybernate, PostgreSQL, HTML, CSS",
+    title: "Java Spring Boot Marketplace",
+    description:
+      "Marketplace prototype with auth, listings, orders and an admin dashboard.",
+    longDescription:
+      "Buy/sell marketplace built on Spring Boot with Spring Security for auth, Hibernate over PostgreSQL for persistence, and a server-rendered HTML/CSS UI. Includes user accounts, listings management and an admin dashboard.",
+    skills: "Java, Spring Boot, Spring Security, Hibernate, PostgreSQL, HTML, CSS",
     img: project04,
     imgBig: project04big,
-    gitHubLink: 'https://github.com/NikitaSipeykin/bysell',
+    images: [project04big],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/bysell", type: "github" },
+    ],
   },
   {
-    title: "React cripto currency tracker",
+    title: "React Crypto Currency Tracker",
+    description:
+      "Real-time crypto dashboard with charts, search and a watchlist, built on React + Vite.",
+    longDescription:
+      "Single-page crypto tracker that consumes a public market API, renders interactive charts and supports search, sorting and a personal watchlist. Built with React, Vite and modern hooks.",
     skills: "JavaScript, HTML, CSS, React, Vite",
     img: project05,
     imgBig: project05big,
-    gitHubLink: 'https://github.com/NikitaSipeykin/react-crypto-initial',
+    images: [project05big],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/react-crypto-initial", type: "github" },
+    ],
   },
   {
-    title: "Packman game",
+    title: "Pac-Man Game",
+    description:
+      "Faithful Pac-Man clone with ghost AI, collision and score system in pure Java.",
+    longDescription:
+      "Recreation of the classic arcade game Pac-Man. Custom maze rendering, four ghost behaviours, pellet system and an authentic feel — written in Java with Swing and Java 2D.",
     skills: "Java, Swing, Java 2D",
     img: project06,
     imgBig: project06big,
-    gitHubLink: 'https://github.com/NikitaSipeykin/PackManJava',
+    images: [project06big],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/PackManJava", type: "github" },
+    ],
   },
   {
-    title: "RUNNER game (Playable in browser)",
+    title: "RUNNER Game",
+    description:
+      "Browser-playable infinite runner built with TypeScript and PixiJS.",
+    longDescription:
+      "An infinite runner playable directly in the browser. Smooth scroll, parallax background, sprite animations and a tight game loop — all powered by PixiJS and TypeScript.",
     skills: "TypeScript, PixiJS",
     img: project07,
     imgBig: project07big,
-    gitHubLink: 'https://runner-flax.vercel.app/',
+    images: [project07big],
+    links: [
+      { label: "Live demo", url: "https://runner-flax.vercel.app/", type: "demo" },
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/runner", type: "github" },
+    ],
   },
   {
-    title: "Job assistant",
-    skills: "Java, Sping boot, JavaScript, HTML, CSS",
-    img: project08,
-    imgBig: project08big,
-    gitHubLink: 'https://github.com/NikitaSipeykin/job-assistant',
-  },
-  {
-    title: "Chess game",
+    title: "Chess Game",
+    description:
+      "Classical chess with full move validation, check / checkmate detection and a clean UI.",
+    longDescription:
+      "A complete chess implementation in Java. Validates every legal move including castling, en passant and promotion, detects check and checkmate, and ships with a polished Swing-based interface.",
     skills: "Java, Swing, Java 2D",
     img: project09,
     imgBig: project09big,
-    gitHubLink: 'https://github.com/NikitaSipeykin/chess-game',
+    images: [project09big],
+    links: [
+      { label: "GitHub", url: "https://github.com/NikitaSipeykin/chess-game", type: "github" },
+    ],
   },
-  {
-    title: "Telegram bot",
-    skills: "Java, Sping boot, Telegram Bot API",
-    img: project10,
-    imgBig: project10big,
-    gitHubLink: 'https://github.com/NikitaSipeykin/T_Bot_Hallie',
-  }
+
 ];
 
-export {projects};
-
+export { projects };
