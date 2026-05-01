@@ -2,10 +2,10 @@
 
 .footer {
 	margin-top: auto;
-	padding: 56px 0 56px;
+	padding: 56px 0;
 	background-color: var(--footer-bg);
 	color: var(--footer-text);
-	border-top: 1px solid rgba(232, 216, 201, 0.08);
+	border-top: 1px solid rgba(232, 216, 201, 0.1);
 }
 
 .footer__wrapper {
@@ -24,24 +24,27 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 44px;
-	height: 44px;
-	border: 1px solid rgba(232, 216, 201, 0.15);
+	width: 46px;
+	height: 46px;
+	border: 1px solid rgba(232, 216, 201, 0.4);
+	background: transparent;
 	transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
 .social__item:hover {
-	border-color: var(--orange);
+	border-color: var(--cream);
+	background-color: rgba(232, 216, 201, 0.08);
 	transform: translateY(-3px);
 }
 
 .social__item img {
 	width: 20px;
 	height: 20px;
-	filter: invert(91%) sepia(8%) saturate(409%) hue-rotate(345deg) brightness(98%) contrast(91%);
-	transition: filter 0.2s ease;
+	filter: brightness(0) invert(1);
+	opacity: 0.95;
+	transition: opacity 0.2s ease;
 }
 
 .social__item:hover img {
-	filter: invert(46%) sepia(91%) saturate(1700%) hue-rotate(355deg) brightness(98%) contrast(95%);
+	opacity: 1;
 }

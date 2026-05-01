@@ -4,6 +4,19 @@ import "./style.css";
 function Header() {
   return (
     <header className="header">
+      <video
+        className="header__video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster=""
+        aria-hidden="true"
+      >
+        <source src="/hero-bg.mp4" type="video/mp4" />
+      </video>
+      <div className="header__overlay" aria-hidden="true"></div>
       <div className="header__wrapper">
         <span className="header__badge">
           <span className="header__badge-dot"></span>

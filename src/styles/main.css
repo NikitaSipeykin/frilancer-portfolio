@@ -1,5 +1,5 @@
 @import './reset.css';
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
 	/* Brand palette */
@@ -108,7 +108,7 @@ body {
 .title-1 {
 	margin-bottom: 56px;
 
-	font-family: 'Unbounded', sans-serif;
+	font-family: 'Archivo', sans-serif;
 	font-size: 56px;
 	font-weight: 600;
 	line-height: 1.05;
@@ -121,7 +121,7 @@ body {
 .title-2 {
 	margin-bottom: 16px;
 
-	font-family: 'Unbounded', sans-serif;
+	font-family: 'Archivo', sans-serif;
 	font-size: 26px;
 	font-weight: 600;
 	line-height: 1.15;

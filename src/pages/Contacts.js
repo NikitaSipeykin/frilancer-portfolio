@@ -2,6 +2,7 @@ import linkedIn from "../img/icons/linkedIn.svg";
 import gitHub from "../img/icons/gitHub.svg";
 import telegram from "../img/icons/twitter.svg";
 import instagram from "../img/icons/instagram.svg";
+import discord from "../img/icons/discord.svg";
 import "../styles/contacts.css";
 
 const socials = [
@@ -22,6 +23,12 @@ const socials = [
     handle: "@nikita.vitalevich",
     href: "https://www.instagram.com/nikita.vitalevich",
     icon: instagram,
+  },
+  {
+    name: "Discord",
+    handle: "niksipeykin6557",
+    href: "https://discord.gg/YP7Ph2Cp",
+    icon: discord,
   },
   {
     name: "GitHub",
